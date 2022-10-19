@@ -1,9 +1,15 @@
-
+#
+# Be sure to run `pod lib lint FPHISDKSelphiComponent' to ensure this is a
+# valid spec before submitting.
+#
+# Any lines starting with a # are optional, but their use is encouraged
+# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
+#
 
 Pod::Spec.new do |spec|
-  spec.name             = 'FPHISDKMainComponent'
+  spec.name             = 'FPHISDKSelphiComponent'
   spec.version          = '0.0.1'
-  spec.summary          = 'A short description of FPHISDKMainComponent.'
+  spec.summary          = 'A short description of FPHISDKSelphiComponent.'
 
 
 # This description is used to generate tags and improve search results.
@@ -24,6 +30,6 @@ TODO: Add long description of the pod here.
   spec.resource_bundles = {
     'FPHISDKMainComponent' => ["README.md"]
   }
-
+  
 
 end
