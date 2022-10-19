@@ -22,6 +22,9 @@ TODO: Add long description of the pod here.
   spec.source           = { :git => 'https://github.com/facephi/PrivatePods.git'}
    
   spec.xcconfig = { 'ENABLE_BITCODE' => '"NO' }
-  spec.ios.resource_bundles = 'README.md'
+  spec.resource_bundles = {
+    'FPHISDKMainComponent' => ["README.md"]
+  }
+
 
 end

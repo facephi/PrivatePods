@@ -2,8 +2,6 @@ Pod::Spec.new do |spec|
   spec.name             = 'FPHISDKCoreComponent'
   spec.version          = '0.0.1'
   spec.summary          = 'A short description of FPHISDKCoreComponent.'
-  spec.ios.deployment_target = '11.0'
-  spec.module_name   = 'core'
 
 
   spec.description      = <<-DESC
@@ -21,6 +19,8 @@ TODO: Add long description of the pod here.
   spec.source           = { :git => 'https://github.com/facephi/PrivatePods.git' }
 
   spec.xcconfig = { 'ENABLE_BITCODE' => '"NO' }
-  spec.ios.vendored_frameworks = 'README.md'
+  spec.resource_bundles = {
+    'FPHISDKMainComponent' => ["README.md"]
+  }
 
 end
