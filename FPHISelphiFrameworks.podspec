@@ -12,29 +12,17 @@ Pod::Spec.new do |s|
   s.summary          = 'A short description of FPHISelphiFrameworks.'
 
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description  = <<-DESC
-  Safe digital onboarding solution with the best real time OCR in the market with facial liveness test.
-  DESC
-  s.homepage     = "https://www.facephi.com"
-  s.license = { :type => "Commercial", 
-                   :text => <<-LICENSE
-                   © Facephi 2021. All rights reserved.
-                LICENSE
-              }
+  spec.description      = <<-DESC
+TODO: Add long description of the pod here.
+                       DESC
 
-  s.author             = { "Facephi" => "developer@facephi.com" }
-  s.source         = { :git => '' }
- 
-  s.ios.resources = "fphi-selphi-widget-resources-selphi-live-1.2.zip"
-
-  s.ios.vendored_frameworks = 'FPBExtractoriOS.xcframework' , 'FPhiWidgetSelphi.xcframework' , 'FPhiWidgetCore.xcframework' 
-
-  s.dependency 'zipzap'
+  spec.homepage         = 'https://github.com/facephi/PrivatePods.git'
+  spec.author           = { 'facephi@facephi.com' => 'facephi@facephi.com' }
+  spec.source           = { :git => 'https://github.com/facephi/PrivatePods.git'}
+   
+  spec.xcconfig = { 'ENABLE_BITCODE' => '"NO' }
+  spec.resource_bundles = {
+    'FPHISDKMainComponent' => ["README.md"]
 
 end
