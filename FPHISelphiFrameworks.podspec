@@ -17,12 +17,12 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  spec.homepage         = 'https://github.com/facephi/PrivatePods.git'
-  spec.author           = { 'facephi@facephi.com' => 'facephi@facephi.com' }
-  spec.source           = { :git => 'https://github.com/facephi/PrivatePods.git'}
+  s.homepage         = 'https://github.com/facephi/PrivatePods.git'
+  s.author           = { 'facephi@facephi.com' => 'facephi@facephi.com' }
+  s.source           = { :git => 'https://github.com/facephi/PrivatePods.git'}
    
-  spec.xcconfig = { 'ENABLE_BITCODE' => '"NO' }
-  spec.resource_bundles = {
-    'FPHISDKMainComponent' => ["README.md"]
+  s.xcconfig = { 'ENABLE_BITCODE' => '"NO' }
+  s.resource_bundles = {
+    'FPHISelphiFrameworks' => ["README.md"]
 
 end
