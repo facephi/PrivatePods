@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
 
 
-  spec.description      = <<-DESC
+  s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
