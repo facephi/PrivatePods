@@ -14,7 +14,7 @@ TODO: Add long description of the pod here.
                 LICENSE
               }
 
-  spec.homepage         = 'https://github.com/facephi@facephi.com/FHISelphidDocumentReaderBundle'
+  spec.homepage         = 'https://github.com/facephi/PrivatePods.git'
   spec.author           = { 'facephi@facephi.com' => 'facephi@facephi.com' }
   spec.source           = { :git => 'https://github.com/facephi/PrivatePods.git' }
 
