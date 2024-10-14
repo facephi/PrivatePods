@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'FPBRecognition'
-  spec.version          = '0.0.1'
+  spec.version          = '3.20.0'
   spec.summary          = 'A short description of FPBRecognition.'
 
 

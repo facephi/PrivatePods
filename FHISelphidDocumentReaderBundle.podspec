@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'FHISelphidDocumentReaderBundle'
-  spec.version          = '0.0.1'
+  spec.version          = '0.31.0'
   spec.summary          = 'A short description of FHISelphidDocumentReaderBundle.'
 
 
