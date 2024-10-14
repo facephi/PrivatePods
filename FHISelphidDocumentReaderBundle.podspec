@@ -22,5 +22,8 @@ TODO: Add long description of the pod here.
   spec.resource_bundles = {
     'FHISelphidDocumentReaderBundle' => ["README.md"]
   }
+  
+  spec.dependency "FHISelphidDocumentReader", "0.31.0"
+  spec.dependency "FPBRecognition", '3.20.0'
 
 end
